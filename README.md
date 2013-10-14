@@ -1,4 +1,4 @@
 WebPage
 =======
 
-My personal webpage @http://cseweb.ucsd.edu/~yuz138/
+My personal webpage @http://eecs.umich.edu/~yunqi/

@@ -29,6 +29,13 @@
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/style-xlarge.css" />
     </noscript>
+    <script type="text/javascript">
+      $(document).ready( function() {
+        $('#meow').click(function(){
+            $('#wrap').append('<embed id="embed_player" src="meows/meow.wav" autostart="true" hidden="true"></embed>');
+          });
+        });
+    </script>
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
   </head>
   <body>
@@ -37,7 +44,8 @@
       <!-- Header -->
         <section id="header" class="skel-layers-fixed">
           <header>
-            <span class="image avatar"><a href="#"><img src="images/photo.jpg" alt="" /></a></span>
+          <span class="image avatar"><a href="#"><img name="meow" id="meow" src="images/photo.jpg" alt="" /></a></span>
+          <div id="wrap">&nbsp;</div>
             <h1 id="logo"><a href="#">Yunqi Zhang</a></h1>
             <p>
               Ph.D. Candidate<br />
